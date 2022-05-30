@@ -1,0 +1,44 @@
+label{
+  display: block;
+  margin-bottom: 18px;
+  font-size: 18px;
+}
+input,select,textarea{
+  width: 90%;
+  padding: 10px 2%;
+  border: 1px solid #ddd;
+  margin-bottom: 10px;
+}
+select{
+  width: 94%;
+}
+textarea{
+  min-height: 100px;
+}
+input[type="submit"]{
+  background: #ddd000;
+  border: 1px solid #ddd;
+  width: 200px;
+  border-radius: 5px;
+  font-size: 18px;
+  transition: 0.3s;
+}
+input[type="submit"]:hover{
+  background: #000;
+  border: 1px solid #000;
+  color: #fff;
+}
+.search_box{
+  width: 100%;
+  max-width: 500px;
+  margin: 20px auto;
+}
+.search_box input{
+  width: 60%;
+  float: left;
+}
+.search_box input[type="submit"]{
+  width: 35%;
+  padding: 7px 3%;
+  float: left;
+}
